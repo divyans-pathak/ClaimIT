@@ -1,0 +1,16 @@
+:root{ --bg:#f6f8fb; --card:#ffffff; --accent:#2b6df6; --muted:#6b7280 }
+body{ margin:0; font-family:Inter,Segoe UI,Roboto,Arial, sans-serif; background:var(--bg); color:#0f172a }
+.app{ min-height:100vh }
+.nav{ display:flex; justify-content:space-between; align-items:center; padding:12px 20px; background:linear-gradient(90deg,#fff,#f8fafc); box-shadow:0 1px 0 rgba(0,0,0,0.04) }
+.nav .brand{ font-weight:700 }
+.nav .links a, .nav .links .link-button{ margin-left:12px; text-decoration:none; color:var(--accent) }
+.link-button{ background:none; border:0; cursor:pointer; color:var(--accent) }
+main{ padding:20px }
+.page .card{ background:var(--card); padding:16px; border-radius:8px; box-shadow:0 2px 6px rgba(11,15,41,0.04) }
+form .card{ max-width:640px; display:flex; flex-direction:column; gap:8px }
+input, textarea{ padding:8px; border:1px solid #e6edf3; border-radius:6px }
+button{ background:var(--accent); color:white; border:0; padding:8px 12px; border-radius:6px; cursor:pointer }
+.claims-table{ width:100%; border-collapse:collapse }
+.claims-table th, .claims-table td{ text-align:left; padding:8px; border-bottom:1px solid #eef2f6 }
+.button{ display:inline-block; background:var(--accent); color:white; padding:8px 10px; border-radius:6px; text-decoration:none }
+.actions button{ margin-right:8px }
