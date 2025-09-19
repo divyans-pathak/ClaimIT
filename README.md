@@ -1,6 +1,4 @@
-# ClaimIt Frontend
-
-This is a minimal React + Vite frontend scaffold for the ClaimIt project.
+# ClaimIt
 
 Quick start (Windows PowerShell):
 
